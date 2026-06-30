@@ -1,5 +1,10 @@
 {
   "framework": null,
   "buildCommand": "vite build",
-  "outputDirectory": "dist"
+  "outputDirectory": "dist",
+  "functions": {
+    "api/index.mjs": {
+      "runtime": "@vercel/node@3"
+    }
+  }
 }
