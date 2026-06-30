@@ -1,4 +1,4 @@
-import express, { Router, Request, Response } from 'express';
+import { Router, Request, Response } from 'express';
 import { SupabaseClient } from '@supabase/supabase-js';
 import type { User, Student, PaymentType, Payment, PaymentInstallment } from '../supabase/db_manager';
 
@@ -34,9 +34,6 @@ async function logActivity(
 
 export function createApiRouter(supabase: SupabaseClient): Router {
   const router = Router();
-
-  router.use(express.json({ limit: '50mb' }));
-  router.use(express.urlencoded({ extended: true, limit: '50mb' }));
 
   async function getAuthenticatedUser(req: Request): Promise<User | null> {
     const userId = req.headers['x-user-id'] as string;
