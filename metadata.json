@@ -1,0 +1,6 @@
+{
+  "name": "Sistem Keuangan Sekolah",
+  "description": "Sistem Manajemen Keuangan Sekolah lengkap dengan manajemen pembayaran siswa, rekap bulanan, monitoring tunggakan, dan laporan otomatis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

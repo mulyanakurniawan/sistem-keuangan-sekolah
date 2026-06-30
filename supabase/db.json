@@ -1,0 +1,346 @@
+{
+  "users": [
+    {
+      "id": "usr-admin-1111",
+      "username": "admin",
+      "password_hash": "admin",
+      "nama_lengkap": "Pak Ahmad (Admin)",
+      "role": "Admin",
+      "status": "aktif",
+      "created_at": "2026-01-01T08:00:00.000Z",
+      "updated_at": "2026-01-01T08:00:00.000Z"
+    },
+    {
+      "id": "usr-bendahara-2222",
+      "username": "bendahara",
+      "password_hash": "bendahara",
+      "nama_lengkap": "Ibu Siti (Bendahara)",
+      "role": "Bendahara",
+      "status": "aktif",
+      "created_at": "2026-01-01T08:30:00.000Z",
+      "updated_at": "2026-01-01T08:30:00.000Z"
+    },
+    {
+      "id": "usr-kepsek-3333",
+      "username": "kepsek",
+      "password_hash": "kepsek",
+      "nama_lengkap": "Drs. H. Mulyadi, M.Pd",
+      "role": "Kepala Sekolah",
+      "status": "aktif",
+      "created_at": "2026-01-01T09:00:00.000Z",
+      "updated_at": "2026-01-01T09:00:00.000Z"
+    }
+  ],
+  "students": [
+    {
+      "id": "std-1",
+      "nis": "20261001",
+      "nama_lengkap": "Muhammad Fadhil",
+      "jenis_kelamin": "Laki-laki",
+      "kelas": "XII",
+      "jurusan": "IPA",
+      "tahun_ajaran": "2025/2026",
+      "nama_wali": "Bambang Hartono",
+      "no_hp_wali": "081234567890",
+      "alamat": "Jl. Pemuda No. 45, Jakarta",
+      "status": "aktif",
+      "created_at": "2025-07-10T10:00:00.000Z",
+      "updated_at": "2025-07-10T10:00:00.000Z"
+    },
+    {
+      "id": "std-2",
+      "nis": "20261002",
+      "nama_lengkap": "Siti Nurhaliza",
+      "jenis_kelamin": "Perempuan",
+      "kelas": "XII",
+      "jurusan": "IPA",
+      "tahun_ajaran": "2025/2026",
+      "nama_wali": "Ahmad Zakaria",
+      "no_hp_wali": "081398765432",
+      "alamat": "Perum Gading Indah Blok C/12, Jakarta",
+      "status": "aktif",
+      "created_at": "2025-07-10T10:15:00.000Z",
+      "updated_at": "2025-07-10T10:15:00.000Z"
+    },
+    {
+      "id": "std-3",
+      "nis": "20261003",
+      "nama_lengkap": "Arya Wiguna",
+      "jenis_kelamin": "Laki-laki",
+      "kelas": "XI",
+      "jurusan": "IPS",
+      "tahun_ajaran": "2025/2026",
+      "nama_wali": "Herman Wiguna",
+      "no_hp_wali": "085712345678",
+      "alamat": "Jl. Melati No. 89, Bogor",
+      "status": "aktif",
+      "created_at": "2025-07-11T11:00:00.000Z",
+      "updated_at": "2025-07-11T11:00:00.000Z"
+    },
+    {
+      "id": "std-4",
+      "nis": "20261004",
+      "nama_lengkap": "Keysha Amalia",
+      "jenis_kelamin": "Perempuan",
+      "kelas": "XI",
+      "jurusan": "IPS",
+      "tahun_ajaran": "2025/2026",
+      "nama_wali": "Rudi Amalia",
+      "no_hp_wali": "082188887777",
+      "alamat": "Jl. Merdeka Gg. 5 No. 2, Tangerang",
+      "status": "aktif",
+      "created_at": "2025-07-12T09:30:00.000Z",
+      "updated_at": "2025-07-12T09:30:00.000Z"
+    },
+    {
+      "id": "std-5",
+      "nis": "20261005",
+      "nama_lengkap": "Rian Hidayat",
+      "jenis_kelamin": "Laki-laki",
+      "kelas": "X",
+      "jurusan": "Umum",
+      "tahun_ajaran": "2025/2026",
+      "nama_wali": "Syarif Hidayat",
+      "no_hp_wali": "081922334455",
+      "alamat": "Komp. Keuangan Blok A/3, Bekasi",
+      "status": "aktif",
+      "created_at": "2025-07-15T14:20:00.000Z",
+      "updated_at": "2025-07-15T14:20:00.000Z"
+    }
+  ],
+  "payment_types": [
+    {
+      "id": "pay-type-spp",
+      "nama_pembayaran": "SPP Bulanan",
+      "nominal": 250000,
+      "deskripsi": "Sumbangan Pembinaan Pendidikan Bulanan Siswa",
+      "status": "aktif",
+      "created_at": "2025-07-01T08:00:00.000Z",
+      "updated_at": "2025-07-01T08:00:00.000Z"
+    },
+    {
+      "id": "pay-type-gedung",
+      "nama_pembayaran": "Uang Gedung",
+      "nominal": 1500000,
+      "deskripsi": "Uang Pembangunan Sarana dan Prasarana (Satu Kali)",
+      "status": "aktif",
+      "created_at": "2025-07-01T08:00:00.000Z",
+      "updated_at": "2025-07-01T08:00:00.000Z"
+    },
+    {
+      "id": "pay-type-ujian",
+      "nama_pembayaran": "Uang Ujian Semester",
+      "nominal": 150000,
+      "deskripsi": "Uang Pelaksanaan Ujian Mid/Final Semester",
+      "status": "aktif",
+      "created_at": "2025-07-01T08:00:00.000Z",
+      "updated_at": "2025-07-01T08:00:00.000Z"
+    },
+    {
+      "id": "pay-type-seragam",
+      "nama_pembayaran": "Seragam Sekolah",
+      "nominal": 600000,
+      "deskripsi": "Uang Pembelian Paket Seragam Lengkap",
+      "status": "aktif",
+      "created_at": "2025-07-01T08:00:00.000Z",
+      "updated_at": "2025-07-01T08:00:00.000Z"
+    }
+  ],
+  "payments": [
+    {
+      "id": "pm-1",
+      "student_id": "std-1",
+      "payment_type_id": "pay-type-spp",
+      "bulan": "Januari",
+      "tahun": 2026,
+      "nominal_tagihan": 250000,
+      "nominal_bayar": 250000,
+      "sisa_tagihan": 0,
+      "tanggal_bayar": "2026-01-05T10:00:00.000Z",
+      "metode_pembayaran": "Transfer Bank",
+      "status": "Lunas",
+      "catatan": "Lunas Bayar SPP Januari",
+      "created_by": "usr-bendahara-2222",
+      "created_at": "2026-01-01T00:00:00.000Z",
+      "updated_at": "2026-01-05T10:00:00.000Z"
+    },
+    {
+      "id": "pm-2",
+      "student_id": "std-1",
+      "payment_type_id": "pay-type-spp",
+      "bulan": "Februari",
+      "tahun": 2026,
+      "nominal_tagihan": 250000,
+      "nominal_bayar": 150000,
+      "sisa_tagihan": 100000,
+      "tanggal_bayar": "2026-02-10T11:00:00.000Z",
+      "metode_pembayaran": "Tunai",
+      "status": "Cicilan",
+      "catatan": "Dicicil 150rb dulu",
+      "created_by": "usr-bendahara-2222",
+      "created_at": "2026-02-01T00:00:00.000Z",
+      "updated_at": "2026-02-10T11:00:00.000Z"
+    },
+    {
+      "id": "pm-3",
+      "student_id": "std-1",
+      "payment_type_id": "pay-type-gedung",
+      "bulan": "Tahunan",
+      "tahun": 2026,
+      "nominal_tagihan": 1500000,
+      "nominal_bayar": 1500000,
+      "sisa_tagihan": 0,
+      "tanggal_bayar": "2026-01-15T09:30:00.000Z",
+      "metode_pembayaran": "Transfer Bank",
+      "status": "Lunas",
+      "catatan": "Uang gedung lunas dari transfer wali murid",
+      "created_by": "usr-bendahara-2222",
+      "created_at": "2026-01-01T00:00:00.000Z",
+      "updated_at": "2026-01-15T09:30:00.000Z"
+    },
+    {
+      "id": "pm-4",
+      "student_id": "std-2",
+      "payment_type_id": "pay-type-spp",
+      "bulan": "Januari",
+      "tahun": 2026,
+      "nominal_tagihan": 250000,
+      "nominal_bayar": 250000,
+      "sisa_tagihan": 0,
+      "tanggal_bayar": "2026-01-08T09:15:00.000Z",
+      "metode_pembayaran": "E-Wallet",
+      "status": "Lunas",
+      "catatan": "Lunas via Gopay",
+      "created_by": "usr-bendahara-2222",
+      "created_at": "2026-01-01T00:00:00.000Z",
+      "updated_at": "2026-01-08T09:15:00.000Z"
+    },
+    {
+      "id": "pm-5",
+      "student_id": "std-2",
+      "payment_type_id": "pay-type-spp",
+      "bulan": "Februari",
+      "tahun": 2026,
+      "nominal_tagihan": 250000,
+      "nominal_bayar": 0,
+      "sisa_tagihan": 250000,
+      "status": "Belum Lunas",
+      "created_by": "usr-bendahara-2222",
+      "created_at": "2026-02-01T00:00:00.000Z",
+      "updated_at": "2026-02-01T00:00:00.000Z"
+    },
+    {
+      "id": "pm-6",
+      "student_id": "std-3",
+      "payment_type_id": "pay-type-spp",
+      "bulan": "Januari",
+      "tahun": 2026,
+      "nominal_tagihan": 250000,
+      "nominal_bayar": 0,
+      "sisa_tagihan": 250000,
+      "status": "Belum Lunas",
+      "created_by": "usr-bendahara-2222",
+      "created_at": "2026-01-01T00:00:00.000Z",
+      "updated_at": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "pm-7",
+      "student_id": "std-4",
+      "payment_type_id": "pay-type-spp",
+      "bulan": "Januari",
+      "tahun": 2026,
+      "nominal_tagihan": 250000,
+      "nominal_bayar": 250000,
+      "sisa_tagihan": 0,
+      "tanggal_bayar": "2026-01-12T14:30:00.000Z",
+      "metode_pembayaran": "Tunai",
+      "status": "Lunas",
+      "created_by": "usr-bendahara-2222",
+      "created_at": "2026-01-01T00:00:00.000Z",
+      "updated_at": "2026-01-12T14:30:00.000Z"
+    }
+  ],
+  "installments": [
+    {
+      "id": "inst-1",
+      "payment_id": "pm-1",
+      "tanggal_bayar": "2026-01-05T10:00:00.000Z",
+      "nominal_bayar": 250000,
+      "metode_pembayaran": "Transfer Bank",
+      "catatan": "Pembayaran SPP Januari",
+      "created_by": "usr-bendahara-2222",
+      "created_at": "2026-01-05T10:00:00.000Z"
+    },
+    {
+      "id": "inst-2",
+      "payment_id": "pm-2",
+      "tanggal_bayar": "2026-02-10T11:00:00.000Z",
+      "nominal_bayar": 150000,
+      "metode_pembayaran": "Tunai",
+      "catatan": "Cicilan 1",
+      "created_by": "usr-bendahara-2222",
+      "created_at": "2026-02-10T11:00:00.000Z"
+    },
+    {
+      "id": "inst-3",
+      "payment_id": "pm-3",
+      "tanggal_bayar": "2026-01-15T09:30:00.000Z",
+      "nominal_bayar": 1500000,
+      "metode_pembayaran": "Transfer Bank",
+      "catatan": "Lunas Uang Gedung",
+      "created_by": "usr-bendahara-2222",
+      "created_at": "2026-01-15T09:30:00.000Z"
+    },
+    {
+      "id": "inst-4",
+      "payment_id": "pm-4",
+      "tanggal_bayar": "2026-01-08T09:15:00.000Z",
+      "nominal_bayar": 250000,
+      "metode_pembayaran": "E-Wallet",
+      "catatan": "SPP Januari Lunas via Gopay",
+      "created_by": "usr-bendahara-2222",
+      "created_at": "2026-01-08T09:15:00.000Z"
+    },
+    {
+      "id": "inst-5",
+      "payment_id": "pm-7",
+      "tanggal_bayar": "2026-01-12T14:30:00.000Z",
+      "nominal_bayar": 250000,
+      "metode_pembayaran": "Tunai",
+      "catatan": "SPP Januari Lunas tunai",
+      "created_by": "usr-bendahara-2222",
+      "created_at": "2026-01-12T14:30:00.000Z"
+    }
+  ],
+  "activity_logs": [
+    {
+      "id": "log-oaty6px1d9-ldl3f2bckdl",
+      "user_id": "usr-admin-1111",
+      "username": "admin",
+      "role": "Admin",
+      "action": "LOGIN",
+      "description": "User Pak Ahmad (Admin) berhasil login.",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+      "created_at": "2026-06-30T01:50:16.319Z"
+    },
+    {
+      "id": "log-1",
+      "user_id": "usr-admin-1111",
+      "username": "admin",
+      "role": "Admin",
+      "action": "INIT_DB",
+      "description": "Inisialisasi sistem database keuangan sekolah.",
+      "created_at": "2026-01-01T08:00:00.000Z"
+    },
+    {
+      "id": "log-2",
+      "user_id": "usr-bendahara-2222",
+      "username": "bendahara",
+      "role": "Bendahara",
+      "action": "LOGIN",
+      "description": "Bendahara Ibu Siti login ke sistem.",
+      "created_at": "2026-06-29T10:00:00.000Z"
+    }
+  ]
+}
